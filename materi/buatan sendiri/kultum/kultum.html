@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KULTUM B.ARAB — حفظ اللسان</title>
+
+  <!-- Google Fonts (Cairo untuk Arabic + Inter untuk latin) -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+
+    :root{
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --accent: #1f7a8c;
+      --muted: #55606a;
+      --radius: 14px;
+      --maxw: 760px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Cairo", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,var(--bg),#eef6f9);
+      color:#0b2433;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 8px 30px rgba(12,40,60,0.08);
+      padding:28px;
+      overflow:hidden;
+    }
+
+    header{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      margin-bottom:14px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:28px;
+      letter-spacing:0.5px;
+      color:var(--accent);
+      font-weight:600;
+    }
+    header h2{
+      margin:0;
+      font-size:14px;
+      color:var(--muted);
+      font-weight:400;
+    }
+
+    .meta{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      font-size:13px;
+      color:var(--muted);
+      margin-top:8px;
+    }
+
+    article{
+      line-height:1.9;
+      font-size:20px; /* ukuran nyaman untuk Arabic */
+      color:#0c2430;
+    }
+
+    p{ margin: 12px 0; text-align: right; }
+
+    .hadith{
+      border-right:4px solid var(--accent);
+      background:linear-gradient(90deg, rgba(31,122,140,0.04), transparent);
+      padding:12px 16px;
+      margin:16px 0;
+      border-radius:10px;
+      font-weight:500;
+    }
+
+    blockquote{
+      margin:0;
+      padding:0;
+      quotes: "“" "”" "‘" "’";
+    }
+
+    footer{
+      margin-top:20px;
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    /* responsive */
+    @media (max-width:520px){
+      .container{ padding:18px; border-radius:12px;}
+      header h1{ font-size:20px;}
+      article{ font-size:18px; line-height:1.8; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-labelledby="title">
+    <header>
+      <h1 id="title">حفظ اللسان</h1>
+      <h2>كلمة قصيرة — تذكير عن قيمة الكلام الطيب</h2>
+      <div class="meta">مدى القراءة ~3 دقائق · مناسب للمسجد أو kelas</div>
+    </header>
+
+    <article>
+      <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+
+      <p>الحمدُ للهِ الذي هدانا لهذا، وما كُنَّا لِنَهْتَدِيَ لولا أن هدانا الله. أَشْهَدُ أَنْ لا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُه.</p>
+
+      <div class="hadith" aria-label="Hadith">
+        <blockquote>
+          «مَن كانَ يُؤمِنُ باللهِ واليومِ الآخرِ فلْيَقُلْ خيرًا أو ليصمُتْ» — رواه البخاري ومسلم.
+        </blockquote>
+      </div>
+
+      <p>هذا الحديث يذَكِّرنا أن المؤمن لا يتكلم إلا بخير، أو يصمت إن لم يجد كلامًا نافعا. فاللسان نعمة وقد يكون سببًا في الخير العظيم أو في الفتنة والضرر.</p>
+
+      <p>وقال تعالى: ﴿مَا يَلْفِظُ مِنْ قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ﴾ [ق: 18] — فكل كلمة تُكتب علينا، فلنأخذ حذرنا ونستعمل ألسنتنا في تلاوة القرآن، وذكر الله، والكلام الطيب.</p>
+
+      <p>فلنبتعد عن الغيبة، والنميمة، والكذب، ولنستبدلها بكلامٍ يَصلح ويبني، ولو بالكلمة الطيبة يُفتح قلبٌ ويَطمئنّ إنسان.</p>
+
+      <p>اللهم أعنّا على ذِكرِك وشُكرِك وحُسن عبادتك، واجعل ألسنتَنا رطبة بذكرك، وقلوبَنا معلّقة بحبك، يا أرحم الراحمين.</p>
+    </article>
+
+    <footer>
+      <div>وصلى الله على نبينا محمد، وعلى آله وصحبه أجمعين.</div>
+      <div>والسلام عليكم ورحمة الله وبركاته.</div>
+    </footer>
+  </div>
+</body>
+</html>
