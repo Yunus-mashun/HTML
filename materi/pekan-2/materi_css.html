@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS Dasar</title>
+    <!-- tag style untuk membuat css internal -->
+    <style>
+      /* komentar pake ctrl -> / */
+      /* ID => dengan simbol # (pagar) */
+      /* CLASS => dengan simbol . (titik) */
+      #page-title {
+        color: gold;
+      }
+      #box1 {
+        background-color: blanchedalmond;
+      }
+      .text-white {
+        color: white;
+        font-size: 20px;
+      }
+      .text-red {
+        color: saddlebrown;
+        font-size: 24px;
+     }
+/* -----------permainan box 2--------------- */
+    #box2 {
+    background-color: chartreuse; 
+    width: 300px; 
+    height: auto;
+    margin: 50px;
+    padding: 58px;
+    border: 8px solid paleturquoise;
+    
+    }
+#box2 h2 {
+    text-align: center;
+    font-size: 38px;
+}
+#box2 p  {
+    color: black;
+}
+#box2 p b {
+    font-size: 28px;
+}
+#box2 .alt-text {
+    color: hotpink;
+    font-size: 30;
+}
+/* -------------------------------------------------- */
+    #box3 {
+        background-color: cadetblue;
+    }
+</style>
+</head>
+<body>
+    <h1 id="page-title">BELAJAR CCS INTERNAL</h1>
+    <hr>
+    <div id="box1">
+        <h2 class="text-white">artikel baru nih</h2>
+        <p class="text-red">imagination diri</p>
+    </div>
+    <hr>
+    <!-- box-2 -->
+    <!-- cara biar bersih codingannya -->
+    <div id="box2">
+        <h2>artikel ke-2 </h2>
+        <p>
+            artikel ini 
+            <b>gak bisa</b> dipake lagi
+        </p>
+        <p>harus nya ikut jadi warna hitam </p>
+        <p class="alt-text">nyobain alt-text untuk warna atau ukuran khusus</p>
+    </div>
+    <hr>
+    <!-- box-3  -->
+    <div id="box3">
+        <h2 class="text-white">artikel ke-3 nih</h2>
+        <p class="text-red">imagination dari buku</p>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+#mod1 {
+    margin: 0% auto 7%;
+}
+#mod1 .ar {
+    color: blue;
+}
+.judul {
+    color: #1280ff;
+}
+#mod2 .hasil {
+    background-color: rgb(59, 255, 209);
+    color: rgb(13, 0, 254);
+    padding-left: 16%;
+}
+/* edit bagian table yang pertama */
+#table-basic {
+    width: 60%;
+    border-collapse: collapse;
+}
+#table-basic tr td {
+    padding: 6px;
+    font-size: 16px;
+}
+
+#table-basic .bg-blue {
+    background-color: darkblue;
+    color: beige;
+}
