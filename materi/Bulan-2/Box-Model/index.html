@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3: Bx Model & Positition</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- add pico -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+
+</head>
+<body>
+    <div class="container">
+        <h1>CSS3: Bx Model & Positition</h1>
+        <hr>
+    <!-- Buat colom otomatis dengan class grid -->
+    <h2>Bagian 1: Box Model</h2>
+    <p>rumus padding dan margin: atas kanan bawah kiri</p>
+    <div class="grid">
+        <div class="card">
+            <div id="box-a">
+                <p>Box A</p>
+                <p>(Konten polos)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="box-b">
+                <p>Box B</p>
+                <p>(Konten + padding)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="box-c">
+                <p>Box C</p>
+                <p>(Konten + padding + border)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="box-d">
+                <p>Box D</p>
+                <p>(Konten + padding + border + margin)</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2>Bagian 2: Position</h2>
+    <div class="grid">
+        <div class="card">
+            <div id="box-e">
+                <p>Box E</p>
+                <p>(Static)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="box-f">
+                <p>Box F</p>
+                <p>(Relative)</p>
+            </div>
+        </div>
+        <div class="card" style="position: relative;">
+            <div id="box-g">
+                <p>Box G</p>
+                <p>(Absolute)</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="box-h">
+                <p>Box H</p>
+                <p>(Fixed)</p>
+            </div>
+        </div>
+        </div>
+    
+
+</body>
+</html>

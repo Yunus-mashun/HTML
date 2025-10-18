@@ -1,0 +1,70 @@
+.container {
+  margin-bottom: 25px;
+}
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #333;
+  border-radius: 6px;
+}
+.area {
+  width: 100px;
+  height: 100px;
+  place-content: center;
+  background-color: aqua;
+  margin-bottom: 8px;
+  /* display: block; */
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+.area-ib {
+  background: cyan;
+  display: inline-block;
+}
+.area-in {
+  background: rgb(103, 253, 253);
+}
+.area-in p {
+  background: lightblue;
+  display: inline;
+}
+.area-none {
+  background: rgb(55, 254, 92);
+  display: none;
+}
+.card:hover .area-none {
+  display: block;
+}
+
+/* Flexbox basic */
+.flexbox-area {
+  display: flex;
+  /* default: row; */
+  /* (row-reverse, column, column-reverse) */
+  flex-direction: row;
+  /* gap: jarak antar item */
+  gap: 20px;
+
+  /* default: flex-start */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+}
+.flexbox-area .card {
+  height: 150px;
+  width: 150px;
+  background-color: aqua;
+}
+h3 {
+  margin-top: 50px;
+}

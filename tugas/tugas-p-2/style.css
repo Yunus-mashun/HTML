@@ -97,3 +97,20 @@ hr {
   margin-top: 1cm;
   border-radius: 5px;  /* sudut garis lebih halus */
 }
+.kotak {
+  /* 1. STATUS AWAL */
+  width: auto;
+  height: auto;
+  background-color: blue;
+  border-radius: 5px; /* Sedikit lengkungan */
+  
+  /* 2. PROPERTI TRANSISI */
+  /* Terapkan transisi ke SEMUA properti yang berubah, selama 0.3 detik, dengan kecepatan 'ease' */
+  transition: all 0.3s ease;
+}
+.kotak:hover {
+  width: auto; /* Lebar bertambah 50px */
+  height: auto; /* Tinggi bertambah 50px */
+  background-color: rgb(0, 42, 255); /* Warna berubah */
+  transform: rotate(10deg); /* Berputar sedikit */
+}

@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: "bismillah script";
+    src: url(font/Bismillah\ Script.ttf);
+}
+@font-face {
+    font-family: "font-1";
+    src: url(font/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: "font-2";
+    src: url(font/Ghost\ Momy.otf);
+}
+header {
+    border-radius: 9px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 29px;
+    border: 2px solid rgb(173, 173, 173);
+}
+h1 {
+    text-shadow: 0 2px 1px black;
+    color: white;
+    font-family: "BBH Sans Hegarty", sans-serif;
+}
+header p{
+    text-shadow: 3px 3px 5px black;
+}
+h2 {
+    color: beige;
+    line-height: 2cm;
+    text-shadow: 3px 3px 5px black;
+    font-family: "Roboto";
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1cm; /*jarak antar baris*/
+    text-align: justify;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.5px; /* jarak antar huruf */
+    word-spacing: 3px;/*jarak antar kata*/
+}
+.kata1 {
+    background-color: rgb(53, 132, 243);
+    padding: 12px;
+    border-left: 4px solid blue;
+    font-family: "font-1";
+    font-size: 50px;
+}
+article {
+    border: 2px solid rgb(173, 173, 173);
+    background-color: rgb(190, 193, 199);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin: 30px;
+}
+.kata2 {
+    background-color: rgb(247, 159, 177);
+    border-left: 4px solid rgb(255, 0, 98);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 32px;
+    font-family: "font-2";
+    font-size: 28px;
+    text-shadow: 2px 2px 2px rgb(244, 27, 244);
+}
+footer {
+    margin-left: 1150px;
+}
+h4 {
+    font-size: 40px;
+    font-family: "bismillah script";
+    color: red;
+}
+span {
+    color: rgb(0, 8, 255);
+    text-shadow: 2px 2px 2px rgb(201, 8, 249);
+}
