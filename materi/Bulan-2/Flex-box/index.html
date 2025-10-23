@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Display & Flexbox</title>
+    <!-- pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- beri space di kiri-kanan halaman -->
+    <div class="container">
+      <h1>Latihan Tugas Flexbox</h1>
+      <hr />
+      <h2>Latihan 1: Pricing Card</h2>
+      <!-- wadah flexbox -->
+      <div class="pricing-area">
+        <!-- flex items = -->
+        <div class="card">Basic</div>
+        <div class="card pro-blue">Pro</div>
+        <div class="card">Enterprise</div>
+        <!-- <div class="card">D</div> : opsional..  -->
+      </div>
+      <!-- end pricing area  -->
+      <br>
+      <hr>
+      <br>
+      <h2>Latihan 2: Alert info</h2>
+      <div class="alert">
+        <p>ℹ️ Info: Kalo Berak Disiram!</p>
+        <button type="button" onclick="this.parentElement.style.display='none'">
+          ❌
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

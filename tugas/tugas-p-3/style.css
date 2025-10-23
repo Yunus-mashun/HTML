@@ -9,7 +9,7 @@ body {
     margin: auto;
     text-align: center;
     padding-top: 48px;
-    
+    font-family: "Roboto";
 }
 .title {
     color: blue;
@@ -123,6 +123,12 @@ nav a,
   margin-right: 22px; /* jarak luar antar link */
 }
 
+nav a:hover {
+  background: #1280ff;
+  color: #faf9f9;
+
+}
+
 /* set button active*/
 nav a.active {
     background: blue;
@@ -215,13 +221,7 @@ nav a.active {
     border-radius: 12px;
     background-color: rgba(184, 183, 183, 0.162);
 }
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #f8f9fb;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
+
 
 .judul {
   text-align: center;
@@ -352,4 +352,19 @@ button {
 
 .kirim:hover {
   background-color: #174bb5;
+}
+@font-face {
+    font-family: "bismillah script";
+    src: url(font/Bismillah\ Script.ttf);
+}
+@font-face {
+    font-family: "font-1";
+    src: url(font/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: "font-2";
+    src: url(font/Ghost\ Momy.otf);
+}
+h3 .blue .Font {
+  font-family: "font-1";
 }

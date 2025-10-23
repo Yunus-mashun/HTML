@@ -1,0 +1,84 @@
+body {
+    margin: 14px;
+}
+h1{
+    color: blue;
+}
+h2 {
+    color: aqua;
+}
+.alert {
+  background: #c2c1c1;
+  position: relative;
+  place-items: center;
+  height: 30px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  /* gap: jarak antar item */
+  gap: 20px;
+  justify-content: space-between;
+  
+}
+
+.close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+.alert button:hover {
+    
+    background-color: rgb(252, 251, 251);
+}
+header {
+    background: #281df7;
+    border-radius: 6px;
+    padding: 1px 6px 3px 6px;
+    box-shadow: 5px 5px 5px #333;
+    margin-bottom: 18px;
+}
+article {
+    background: #281df7;
+    border-radius: 6px;
+    padding: 1px 6px 3px 6px;
+    box-shadow: 5px 5px 5px #333;
+    margin-top: 18px;
+}
+.profile-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  display: inline-block;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.status {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 15px;
+  height: 15px;
+  background: #2ecc71;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.card {
+  margin: 14px;
+  display: flex;
+  flex-direction: row;
+
+}
