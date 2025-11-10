@@ -1,234 +1,36 @@
+/* === GLOBAL STYLE === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f8f8;
+  align-items: center;
 }
 
-.judul {
-    margin: auto;
-    text-align: center;
-    padding-top: 48px;
-    font-family: "Roboto";
-}
-.title {
-    color: blue;
-}
-
-/* Blok Pengantar */
-.pengantar {
-    width: 50%;
-    margin: 20px;
-    margin-left: 24%;
-    margin-top: 48px;
-    padding: 12px;
-    border-radius: 12px;
-    background-color: rgba(184, 183, 183, 0.162);
-    box-shadow: 5px 5px 10px #888888;
-}
-
-.title-pengantar {
-    margin-left: 24px;
-    font-size: 24px;
-    padding-left: 10px;      /* ruang agar teks tidak mepet garis */
-    border-left: 4px solid #faec30;
-    color: blue;
-}
-
-.paragraph-p {
-    text-align: left;
-    margin-left: 30px;
-}
-
-/* Warna judul emas (opsional) */
-.garis {
-    color: rgb(154, 147, 56);
-    font-size: larger;
-}
-
-
-.gambar {
-     width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 60%;
-  border: 4px solid #e5e7eb;
-  display: block;
-  margin: px auto;
-
-}
-
-.deskrip {
-    margin-left: 25px;
-    padding-bottom: 25px;
-}
-
-.bravepibk {
-    color: #bf4cb3; /* ungu */
-}
-
-.grennhero {
-    color: #3ab436; /* hijau */
-}
-
-.gariske2 {
-    font-size: large;
-    color: rgb(154, 147, 56); /* emas */
-}
-#geser {
-    text-align: center;
-}
-.link {
-    display: inline-block;
-    margin: 20px 0;
-    padding: 10px 20px;
-    background: blue;
-    color: aliceblue;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background 0.3s;
-}
-.blue {
-    color: blue;
-}
 hr {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 20px;
-  margin-bottom:20px ;
-  border-radius: 5px;  /* sudut garis lebih halus */
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-nav,
-.nav {
-  margin-top: 10px;
-  background: #f7f8f7;
-  
-  margin-left: 28%;
-  padding-top: auto;
-}
-
-nav a,
-.nav a {
-  color: black;
-  text-decoration: none; /* hapus garis bawah */
-  border-radius: 22px; /* ubah sudut jadi bulat */
-  background: #fff;
-  padding: 6px 14px;
-  /* padding-top: 6px; */
-  /* padding-bottom: 6px; */
-  /* padding-left: 14px; */
-  /* padding-right: 14px; */
-  margin-right: 22px; /* jarak luar antar link */
-}
-
-nav a:hover {
-  background: #1280ff;
-  color: #faf9f9;
-
-}
-
-/* set button active*/
-nav a.active {
-    background: blue;
-    color: #fff;
-    }
-
-    #mod1 {
-    margin: 0% auto 7%;
-}
-#mod1 .ar {
-    color: blue;
-}
-.judul {
-    color: #1280ff;
-}
-#mod2 .hasil {
-    background-color: rgb(59, 255, 209);
-    color: rgb(13, 0, 254);
-    padding-left: 16%;
-}
-/* edit bagian table yang pertama */
-#table-basic {
-    width: 60%;
-    border-collapse: collapse;
-    margin-left: 50px;
-}
-#table-basic tr td {
-    padding: 6px;
-    font-size: 16px;
-}
-
-#table-basic .bg-blue {
-    background-color: darkblue;
-    color: beige;
-}
-.jadwal {
-    width: 50%;
-    margin: 1cm;
-    margin-left: 24%;
-    margin-top: 48px;
-    padding: 12px;
-    border-radius: 12px;
-    background-color: rgba(184, 183, 183, 0.162);
-    box-shadow: #d1d0d0;
-}
-.gallery {
-  border-radius: 12px;
-  background-color: rgba(184, 183, 183, 0.162);
-  text-align: center;
-  
-    margin: 160px;
-    margin-top: 48px;
-    box-shadow: 5px 5px 10px #c7c6c6;
-
-}
-.gallery h2 {
-  color: blue;
-}
-.gallery p {
-  color: #5a5858;
-  font-size: 14px;
-}
-.gallery .card {
-  display: inline-block;
-  width: 200px;
-  margin: 11px;
-  overflow: hidden;
-  border: 1px solid #545454;
-  border-radius: 8px;
-}
-.gallery .card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-}
-.gallery .card figcaption {
-  background-color: blue;
-  color: #e3f2fd;
-  padding: 4px;
-  font-size: 12px;
-  margin-top: -4px;
-}
-.pengantar2 {
-    
-    width: 50%;
-    margin: 20px;
-    margin-left: 24%;
-    margin-top: 48px;
-    padding: 12px;
-    border-radius: 12px;
-    background-color: rgba(184, 183, 183, 0.162);
-}
-
-
+/* === JUDUL DAN SUBJUDUL === */
 .judul {
   text-align: center;
   color: #1a56db;
   margin-top: 40px;
   margin-bottom: 5px;
   font-size: 28px;
+  font-family: "Roboto";
 }
 
 .subjudul {
@@ -237,14 +39,104 @@ nav a.active {
   margin-bottom: 25px;
 }
 
-/* Navigasi */
-.navigasi {
-  text-align: center;
-  margin-bottom: 20px;
+.title {
+  color: blue;
 }
 
+.garis,
+.gariske2 {
+  color: rgb(154, 147, 56);
+  font-size: larger;
+}
+
+/* === PENGANTAR === */
+.pengantar,
+.pengantar2,
+.jadwal {
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: rgba(184, 183, 183, 0.162);
+  box-shadow: 5px 5px 10px #d1d0d0;
+  
+}
+.kanan-kiri {
+  display: flex;
+  flex-direction: column; /* default: tumpuk (foto di atas, teks di bawah) */
+  gap: 20px;
+}
+.jadwal {
+  margin-bottom: 34px;
+  overflow-x: auto;
+}
+.pengantar {
+  margin: 8% 24%;
+}
+.pengantar ol,
+.pengantar ul{
+  padding: 16px;
+}
+.title-pengantar {
+  margin-left: 24px;
+  font-size: 24px;
+  padding-left: 10px;
+  border-left: 4px solid #faec30;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.paragraph-p {
+  text-align: left;
+  margin-left: 30px;
+  line-height: 1.7;
+}
+
+.deskrip {
+  margin-left: 25px;
+  padding-bottom: 25px;
+}
+
+/* === GAMBAR === */
+.gambar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60%;
+  border: 4px solid #e5e7eb;
+  display: block;
+  margin: 20px auto 0; 
+}
+
+/* === WARNA KHUSUS === */
+.bravepibk {
+  color: #bf4cb3; /* ungu */
+}
+
+.grennhero {
+  color: #3ab436; /* hijau */
+}
+
+.blue {
+  color: blue;
+}
+
+/* === NAVIGASI === */
+nav,
+.nav,
+.navigasi {
+  display: flex;
+  background: #f7f8f7;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+nav a,
+.nav a,
 .navigasi a {
-  display: inline-block;
+  
   background: #fff;
   color: #1a56db;
   border: 1px solid #e0e0e0;
@@ -253,18 +145,98 @@ nav a.active {
   margin: 0 5px;
   text-decoration: none;
   transition: 0.2s;
+  flex-wrap: wrap;
 }
 
+nav a:hover,
 .navigasi a:hover {
-  background: #eeecec;
+  background: #1280ff;
+  color: #faf9f9;
 }
 
+nav a.active,
 .navigasi .aktif {
-  background: #1a56db;
+  background: blue;
   color: #fff;
 }
 
-/* Form Container */
+/* === LINK === */
+.link {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: blue;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+/* === TABEL === */
+#table-basic {
+  
+  border-collapse: collapse;
+  margin-left: 50px;
+  min-width: 500px;
+}
+
+#table-basic th, #table-basic td {
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+#table-basic th {
+  font-weight: bold;
+}
+
+#table-basic .bg-blue {
+  background-color: darkblue;
+  color: beige;
+}
+
+/* === GALLERY === */
+.gallery {
+  border-radius: 12px;
+  background-color: rgba(184, 183, 183, 0.162);
+  text-align: center;
+  margin: 48px 160px ;
+  box-shadow: 5px 5px 10px #c7c6c6;
+}
+
+.gallery h2 {
+  color: blue;
+}
+
+.gallery p {
+  color: #5a5858;
+  font-size: 14px;
+}
+
+.gallery .card {
+  display: inline-block;
+  width: 200px;
+  margin: 11px;
+  overflow: hidden;
+  border: 1px solid #545454;
+  border-radius: 8px;
+}
+
+.gallery .card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.gallery .card figcaption {
+  background-color: blue;
+  color: #e3f2fd;
+  padding: 4px;
+  font-size: 12px;
+}
+
+/* === FORM === */
 .container {
   background: #fff;
   max-width: 650px;
@@ -274,7 +246,6 @@ nav a.active {
   box-shadow: 5px 5px 10px #d1d1d1;
 }
 
-/* Judul Form */
 .judul-form {
   color: #1a56db;
   border-left: 4px solid #f5c518;
@@ -290,7 +261,6 @@ nav a.active {
   margin-bottom: 20px;
 }
 
-/* Input, Select, Textarea */
 form label {
   display: block;
   margin-top: 10px;
@@ -316,7 +286,6 @@ textarea {
   resize: vertical;
 }
 
-/* Radio & Checkbox */
 .radio-group label,
 .checkbox-group label {
   margin-right: 15px;
@@ -324,7 +293,6 @@ textarea {
   display: inline-block;
 }
 
-/* Tombol */
 .tombol {
   display: flex;
   justify-content: flex-end;
@@ -351,20 +319,135 @@ button {
 }
 
 .kirim:hover {
-  background-color: #174bb5;
+  background-color: #174bb5;
 }
+
+/* === FONT FACE === */
 @font-face {
-    font-family: "bismillah script";
-    src: url(font/Bismillah\ Script.ttf);
+  font-family: "bismillah script";
+  src: url(font/Bismillah\ Script.ttf);
 }
+
 @font-face {
-    font-family: "font-1";
-    src: url(font/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
-}
-@font-face {
-    font-family: "font-2";
-    src: url(font/Ghost\ Momy.otf);
-}
-h3 .blue .Font {
   font-family: "font-1";
+  src: url(font/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
 }
+
+@font-face {
+  font-family: "font-2";
+  src: url(font/Ghost\ Momy.otf);
+}
+
+/* === RESPONSIVE === */
+
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .judul {
+    font-size: 20px;
+  }
+  
+  .pengantar {
+    margin: 35px;
+    width: 90%;
+    
+  }
+  
+  
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom per baris / Menentukan berapa kolom yang mau dibuat di dalam grid.*/
+    gap: 10px; /* jarak antar tombol */
+    max-width: 500px;
+    margin: 0 auto; /* biar di tengah */
+    padding: 10px;
+  }
+
+  nav a {
+    background: #fafafa;
+    color: rgb(4, 8, 254);
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    background: #1280ff;
+  color: #faf9f9;
+  }
+
+  /* Baris terakhir (Masukan) biar di tengah */
+  nav a:last-child {
+    grid-column: span 2; /* lebarin 2 kolom */
+    justify-self: center; /* posisikan di tengah */
+    width: 50%; /* lebar 50% dari grid */
+  }
+.gallery{
+  margin: 35px;
+}
+iframe {
+  width: 450px;
+}
+.kanan-kiri {
+  flex-direction: row; /* ubah jadi sejajar kiri-kanan */
+    align-items: flex-start;
+}
+}
+
+/* === RESPONSIVE UNTUK HP === */
+@media screen and (max-width: 599px) {
+  /* Judul mengecil */
+  .judul {
+    font-size: 14px;
+  }
+
+  /* Pengantar biar gak terlalu lebar */
+  .pengantar {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .jadwal {
+    width: 300px;
+  }
+
+  /* Navigasi jadi kolom (turun ke bawah) */
+  nav {
+    display: flex;
+    flex-direction: column; /* ini penting, biar turun ke bawah */
+    align-items: center;
+    gap: 8px;
+    background: #f7f8f7;
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    max-width: 320px; /* biar gak terlalu lebar */
+    text-align: center;
+    background: #fafafa;
+    color: rgb(20, 3, 251);
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+  background: #1280ff;
+  color: #faf9f9;  
+}
+.container {
+  max-width: 470px;
+  margin-bottom: 20px;
+}
+.gallery {
+  margin: 12%;
+}
+iframe {
+  width: 350px;
+}
+}
+
